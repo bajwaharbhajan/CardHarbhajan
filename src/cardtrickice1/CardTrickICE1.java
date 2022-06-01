@@ -47,6 +47,10 @@ public class CardTrickICE1 {
         Scanner b = new Scanner(System.in);
         System.out.print("Enter any suit: ");
         String suit = b.nextLine();
+      
+        Card luckyCard = new Card();             //  luckyCard
+        luckyCard.setValue(2);
+        luckyCard.setSuits("hearts");
         
       
         
